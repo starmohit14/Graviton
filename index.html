@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section{
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+            color: white;
+        }
+        .navbar{
+            display: flex;
+            justify-content: flex-end;
+        }
+        .header{
+          border: 2px solid red;
+          height: 600px;
+          background-color: aqua;
+        }
+        .details-box{
+          /* display: flex; */
+          flex-wrap: wrap;
+          /* margin-top: 95px;
+          margin-left: 95px; */
+          margin: 55px;
+          padding: 55px;
+        }
+        .details-box button:hover{
+            background-color: chartreuse;
+        }
+        .details-box button{
+          height: 8vh;
+          width: 12vw;
+          font-size: 15px;
+          background-color: blueviolet;
+          color: white;
+          cursor: pointer;
+        }
+
+        .box1{
+            /* position: relative; */
+            width: 700px;
+            height: 400px;
+            left: 100px;
+            margin: 60px;
+            padding: 90px;
+        }
+        .box2{
+            position: relative;
+            top: -68vh;
+            left: 700px;
+            width: 500px;
+            height: 300px;
+            background-color: azure;
+            border: 2px solid red;
+        }
+        .section3{
+          border: 2px solid blue;
+          background-color: black;
+          height: 80vh;
+        }
+        .heading{
+          display: flex;
+          justify-content: center;
+          color: white;
+          background-color: black;
+        }
+        .box{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          height: 40vh;
+          margin-top: 20px;
+          text-align: center;
+        }
+        .box button:hover{
+            background-color: chartreuse;
+        }
+        .box button{
+          height: 8vh;
+          width: 12vw;
+          font-size: 15px;
+          background-color: blueviolet;
+          color: white;
+          cursor: pointer;
+        }
+        .sec-box1{
+          background-color: dodgerblue;
+        }
+        .sec-box2{
+          background-color: red;
+          height: 10vh;
+        }
+        .sec-box3{
+          background-color: green;
+        }
+        .section4{
+          margin-top: 90px;
+          padding: 10px;
+          text-align: center;
+        }
+        .section5{
+          border: 2px solid blue;
+          text-align: center;
+          height: 70vh;
+          background-color: black;
+        }
+        .section5-box{
+          margin: 40px;
+          padding: 20px;
+        }
+        .heading1{
+          font-size: 30px;
+          color: white;
+        }
+        .name{
+          margin: 40px;
+        }
+        .email{
+          margin: 40px;
+        }
+        .number{
+          margin: 40px;
+        }
+        .massage{
+          margin: 40px;
+        }
+        .section5-box button{
+          margin: 35px;
+          height: 8vh;
+          width: 12vw;
+          font-size: 15px;
+          background-color: blueviolet;
+          color: white;
+          cursor: pointer;
+        }
+        .section6{
+          border: 2px solid red;
+        }
+        .text{
+          text-align: center;
+        }
+        .sec6-box{
+          display: flex;
+          justify-content: space-around;
+        }
+        .sec6-box1{
+          border: 1px solid blue;
+        }
+        .sec6-box2{
+          border: 1px solid blue;
+        }
+        .sec6-box3{
+          border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <span>Lorem ipsum dolor sit amet,</span>
+        <span>Call : +01 1234567890</span>
+        <span>mail@domain.com</span>
+    </div>
+
+    <div class="header">
+      <div class="navbar">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Guards</a>
+        <a href="">Contact us</a>
+      </div>
+      <div class="details-box">
+        <h1 style="color: white;">Your Saftey 
+          <br>
+          <span style="color: yellow;">
+            Our Responsibility
+          </span>
+        </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod magna aliqua. Ut enim ad minim veniam
+          </p>
+          <button>Read more</button>
+          <button>Get A Quote</button>
+            <!-- <button class="btn-1" href="">Read more</button>
+            <button class="btn-2" href="">Get A Quote</button> -->
+        </div>
+    </div>
+
+    <div class="section2">
+      <div class="box1">
+        <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/973e7b71cc2e5de2a6364059/bvvvvv.jpg" style="height: 400px;" alt="">
+      </div>
+      <div class="box2">
+        <h1>Who Are We?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quisquam!</p>
+        <button>Read more</button>
+      </div>
+    </div>
+
+    <div class="section3">
+      <div class="heading">
+        <h1>OUR SERVICES</h1>
+      </div>
+      <div class="box">
+        <div class="sec-box1">
+          <h1>Home Security</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, consectetur.</p>
+          <button>Read More</button>
+        </div>
+        <div class="sec-box2">
+          <h1>Office Security</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, consectetur.</p>
+          <button>Read More</button>
+        </div>
+        <div class="sec-box3">
+          <h1>Bodyguard</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, consectetur.</p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="section4">
+      <h1>What is says our clients</h1>
+      <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/973e7b71cc2e5de2a6364059/bvvvvv.jpg" style="height: 70px;" alt="">
+      <h3>Minim Veniam</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip</p>
+    </div>
+
+    <div class="section5">
+      <div class="section5-box">
+        <div class="heading1">
+          GET IN TOUCH
+        </div>
+        <div class="name">
+          <input type="text" placeholder="FULL NAME">
+        </div>
+        <div class="email">
+          <input type="email" placeholder="EMAIL">
+        </div>
+        <div class="number">
+          <input type="number" placeholder="PHONE NUMBER">
+        </div>
+        <div class="masssage">
+          <input type="text" placeholder="MASSAGE">
+        </div>
+        <button>SEND</button>
+      </div>
+    </div>
+
+
+    <div class="section6">
+      <div class="text">
+        <h1>Our Guards</h1>
+        <p>Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla mauris iaculis. Erat eget vitae malesuada, tortor tincidunt porta lorem lectus.</p>
+      </div>
+      <div class="sec6-box">
+        <div class="sec6-box1">
+          <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/973e7b71cc2e5de2a6364059/bvvvvv.jpg" style="height: 50vh; width: 25vw;" alt="">
+        </div>
+        <div class="sec6-box2">
+          <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/973e7b71cc2e5de2a6364059/bvvvvv.jpg" style="height: 50vh; width: 25vw;" alt="">
+        </div>
+        <div class="sec6-box3">
+          <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/973e7b71cc2e5de2a6364059/bvvvvv.jpg" style="height: 50vh; width: 25vw;" alt="">  
+        </div>
+      </div>
+    </div>
+    
+
+</body>
+</html>
